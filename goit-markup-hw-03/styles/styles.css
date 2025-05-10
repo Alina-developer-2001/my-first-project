@@ -1,0 +1,157 @@
+body {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+}
+
+.button {
+  color: #fff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+.logo-dark {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.logo-light {
+  color: #4d5ae5;
+}
+
+.nav {
+  display: inline;
+  flex-direction: row;
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contact-link {
+  color: #434455;
+  font-style: normal;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+/* Hero section */
+
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+li {
+  background-color: #fff;
+}
+
+.title-our-team {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.employee-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* Our portfolio */
+
+.our-portfolio {
+  background-color: #e7e9fc;
+}
+
+.our-portfolio ul li {
+  background-color: #fff;
+}
+
+.title-our-portfolio {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.app-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer-light {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.166;
+  text-transform: uppercase;
+}
+
+.logo-footer-blue {
+  color: #4d5ae5;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 2%;
+}
